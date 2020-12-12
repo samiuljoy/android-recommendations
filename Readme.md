@@ -40,9 +40,17 @@ These are the list of some of the apps I use on a daily basis. Most of these are
 
 1. Unlauncher
 
+2. Last launcher(Currently using)
+
+***Email reader***
+
+1. Mutt terminal email reader
+
+2. FairEmail
+
 ## Details
 
-Apps like NewPipe, FF-updater, Personal DNSfilter, Jackpals Android Terminal, Termux, Document viewer, Unlauncher, are all available on the F-Droid repositories. Firefox, I download from their official GitHub repository [release page](https://github.com/mozilla-mobile/fenix/releases). Also there's an app on F-Droid `ffupdater` which checks for Firefox update and downloads them.
+Apps like NewPipe, FF-updater, Personal DNSfilter, Jackpals Android Terminal, Termux, Document viewer, Unlauncher, Last launcher, FairEmail are all available on the F-Droid repositories. Firefox, I download from their official GitHub repository [release page](https://github.com/mozilla-mobile/fenix/releases). Also there's an app on F-Droid `ffupdater` which checks for Firefox update and downloads them.
 
 **Why two Firefox's?**
 
