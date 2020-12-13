@@ -94,7 +94,7 @@ If you're using a custom rom, you'll need to place your init script under /etc/i
 
 **Terminal emulator**
 
-Termux is my go-to terminal emulator. It's so much more than one could wish for. If you're interested in using some of my custom colorschemes, [here](https://github.com/samiuljoy/termux-dark-colorschemes) is one, and some [more](https://github.com/samiuljoy/custom_bash_for_termux)
+Termux is my go-to terminal emulator. It's so much more than one could wish for. If you're interested in using some of my custom colorschemes, [here](https://github.com/samiuljoy/termux-dark-scheme) is one, and some [more](https://github.com/samiuljoy/customization-for-termux-shell)
 
 
 ### Hopefully you'll find this repository to be helpful (:
