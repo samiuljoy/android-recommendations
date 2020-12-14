@@ -8,6 +8,8 @@ These are the list of some of the apps I use on a daily basis. Most of these are
 
 2. Firefox release for Android
 
+3. Icecat browser for Android
+
 ***For Maintaining Firefox Up-To-Date***
 
 1. FF-updater
@@ -21,6 +23,10 @@ These are the list of some of the apps I use on a daily basis. Most of these are
 ***For YouTube video playback***
 
 1. NewPipe
+
+***Audio player***
+
+1. Music Player Go(has built in equalizer and supports ".opus" audio files, helpful for listening to podcasts. My default music player didn't support .opus audio files, so I had to find an alternative)
 
 ***Terminal emulation***
 
@@ -44,13 +50,17 @@ These are the list of some of the apps I use on a daily basis. Most of these are
 
 ***Email reader***
 
-1. Mutt terminal email reader
+1. Mutt terminal email client(from termux)
 
 2. FairEmail
 
+**Here's a screenshot of my home screen. I'm using Last Launcher as my default launcher**
+
+![screenshot](home.png)
+
 ## Details
 
-Apps like NewPipe, FF-updater, Personal DNSfilter, Jackpals Android Terminal, Termux, Document viewer, Unlauncher, Last launcher, FairEmail are all available on the F-Droid repositories. Firefox, I download from their official GitHub repository [release page](https://github.com/mozilla-mobile/fenix/releases). Also there's an app on F-Droid `ffupdater` which checks for Firefox update and downloads them.
+Apps like NewPipe, Icecat browser, FF-updater, Music Player Go, Personal DNSfilter, Jackpals Android Terminal, Termux, Document viewer, Unlauncher, Last launcher, FairEmail are all available on the F-Droid repositories. Firefox, I download from their official GitHub repository [release page](https://github.com/mozilla-mobile/fenix/releases). Also there's an app on F-Droid `ffupdater` which checks for Firefox update and downloads them.
 
 **Why two Firefox's?**
 
