@@ -26,7 +26,7 @@ These are the list of some of the apps I use on a daily basis. Most of these are
 
 ***Audio player***
 
-1. Music Player Go(has built in equalizer and supports ".opus" audio files, helpful for listening to podcasts. My default music player didn't support .opus audio files, so I had to find an alternative)
+1. Music Player Go
 
 ***Terminal emulation***
 
