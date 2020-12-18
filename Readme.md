@@ -110,3 +110,5 @@ Termux is my go-to terminal emulator. It's so much more than one could wish for.
 ### Hopefully you'll find this repository to be helpful (:
 
 ## <3 Love and support open-source! <3
+
+Feel free to support at [bitcoin] 13erq7DDXDuqqBohht3UNyuJCXtpJcWGSe
