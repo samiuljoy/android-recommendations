@@ -73,18 +73,23 @@ If you're using an Android(Android version > 5.1 ) with root privilege, then you
 [prefs.js](https://github.com/samiuljoy/android-recommendations/prefs.js)
 
 To add it you'll first need to fetch the package name for Firefox beta on your phone. To do that, head over to your root terminal and type in. 
-
-`pm list packages firefox | grep beta | sed 's/package://'`
+```sh
+pm list packages firefox | grep beta | sed 's/package://'
+```
 
 (***Note: sed is a part of busybox binary package, you'll need to have busybox binary preinstalled on your system for sed to work***)
 
 Running the above command will output the name of Firefox beta package on you system. Now to replace it, first place the prefs.js to /your/preferred/location/prefs.js. Then head over to the Firefox data directory, which should be generally under;
 
-`ls /data/data/$(pm list packages firefox | grep beta | sed 's/package://')/files/mozilla/*.default`
+```sh
+ls /data/data/$(pm list packages firefox | grep beta | sed 's/package://')/files/mozilla/*.default
+```
 
 Now if you `ls`, you'll see that there's a file called prefs.js. That's the config file of Firefox beta browser. Now to replace it with mine, you can just cat into it, like so 
 
-`cat /your/preferred/location/prefs.js > /data/data/$(pm list packages firefox | grep beta | sed 's/package://')/files/mozilla/*.default/prefs.js`
+```sh
+cat /your/preferred/location/prefs.js > /data/data/$(pm list packages firefox | grep beta | sed 's/package://')/files/mozilla/*.default/prefs.js
+```
 
 Restarting Firefox will impose all the new preferences. The reason behind using the normal release version alongside Firefox-beta is because, some sites break under the custom preferences on the Firefox beta version, for eg; GitLab is totally non-functional when using custom preferences on Firefox beta, however, Firefox release version has no feature to edit `about:config` preferences, hence, GitLab loads normally.
 
@@ -96,7 +101,9 @@ To use dnscrypt-proxy in conjunction with Personal dnsfilter app, first download
 
 It's also possible to execute dnscrypt as a init script. If you're using magisk manager, you can place a init script under `/data/adb/service.d/` chmoding 0700 on the init script.sh, and include the path to dnscrypt binary like so,
 
-`nohup /path/to/dnscrypt/binary/dnscrypt-proxy &`
+```sh
+nohup /path/to/dnscrypt/binary/dnscrypt-proxy &
+```
 
 This will start dnscrypt-proxy on every boot and `nohup &` will allow it to run in the background. All you have to do is start up Personal-dnsfilter before going online.
 
