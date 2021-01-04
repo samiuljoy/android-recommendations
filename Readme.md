@@ -70,7 +70,7 @@ If you're using an Android(Android version > 5.1 ) with root privilege, then you
 
 ***The prefs.js***
 
-[prefs.js](https://github.com/samiuljoy/android-recommendations/prefs.js)
+[prefs.js](https://github.com/samiuljoy/android-recommendations/blob/main/prefs.js)
 
 To add it you'll first need to fetch the package name for Firefox beta on your phone. To do that, head over to your root terminal and type in. 
 ```sh
