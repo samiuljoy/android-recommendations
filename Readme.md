@@ -118,4 +118,4 @@ Termux is my go-to terminal emulator. It's so much more than one could wish for.
 
 ## <3 Love and support open-source! <3
 
-Feel free to support at [bitcoin] 13erq7DDXDuqqBohht3UNyuJCXtpJcWGSe
+Feel free to support with [bitcoin] 13erq7DDXDuqqBohht3UNyuJCXtpJcWGSe
